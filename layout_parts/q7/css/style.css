@@ -2,4 +2,99 @@
 
 /* 回答はここに書いてね */
 
+.q7__box__float,.q7__box__table,.q7__box__inlineblock,.q7__box__flex {
+  width: 225px;
+  font-size: 16px;
+}
+
+.q7__box__float,.q7__box__text__table,.q7__box__inlineblock,.q7__box__flex,.q7__box__text__margin {
+  padding: 10px;
+  background-color: #fff; 
+}
+
+.q7__box__float {
+  margin-left: 50px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.q7__box__float:first-child {
+  margin-left: 0;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q7__box__table {
+  padding-left: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.q7__box__table:first-child {
+  padding-left: 0;
+}
+
+
+.q7__inner.is-block {
+  font-size: 0;
+}
+
+.q7__box__inlineblock {
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.q7__box__inlineblock:first-child {
+  margin-left: 0;
+}
+
+.q7__inner__flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  background-color: #ecf1f2;
+}
+
+.q7__box__flex {
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.q7__inner.is-full__margin {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.q7__box__margin{
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.q7__box__text__margin {
+  font-size: 16px;
+}
+
+.q7__box__margin__block {
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
 /* 回答はここに書いてね */
