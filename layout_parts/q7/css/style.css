@@ -2,23 +2,16 @@
 
 /* 回答はここに書いてね */
 
-.q7__box__float,.q7__box__table,.q7__box__inlineblock,.q7__box__flex {
-  width: 225px;
-  font-size: 16px;
-}
-
-.q7__box__float,.q7__box__text__table,.q7__box__inlineblock,.q7__box__flex,.q7__box__text__margin {
-  padding: 10px;
-  background-color: #fff; 
-}
-
 .q7__box__float {
+  width: 225px;
+  padding: 10px;
   margin-left: 50px;
   float: left;
   box-sizing: border-box;
+  background-color: #fff; 
 }
 
-.q7__box__float:first-child {
+.q7__box__float:first-child,.q7__box__inlineblock:first-child {
   margin-left: 0;
 }
 
@@ -29,6 +22,7 @@
 }
 
 .q7__box__table {
+  width: 225px;
   padding-left: 50px;
   display: table-cell;
   vertical-align: middle;
@@ -38,21 +32,24 @@
   padding-left: 0;
 }
 
+.q7__box__text__table {
+  padding: 10px;
+  background-color: #fff;
+}
 
 .q7__inner.is-block {
   font-size: 0;
 }
 
 .q7__box__inlineblock {
+  width: 225px;
   margin-left: 50px;
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
+  padding: 10px;
   box-sizing: border-box;
-}
-
-.q7__box__inlineblock:first-child {
-  margin-left: 0;
+  background-color: #fff;
 }
 
 .q7__inner__flex {
@@ -66,9 +63,12 @@
 }
 
 .q7__box__flex {
+  width: 225px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
+  padding: 10px;
+  background-color: #fff;
 }
 
 .q7__inner.is-full__margin {
@@ -84,17 +84,17 @@
 }
 
 .q7__box__text__margin {
+  padding: 10px;
   font-size: 16px;
+  background-color: #fff;
 }
 
 .q7__box__margin__block {
   display: inline-block;
-  font-size: 16px;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
-  vertical-align: top;
 }
 
 /* 回答はここに書いてね */
