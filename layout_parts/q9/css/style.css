@@ -11,9 +11,13 @@
   border-radius: 30px;
 }
 
-.q9__balloon:before {
+
+.q9__balloon:before,.q9__balloon:after{
   content: "";
   position: absolute;
+}
+
+.q9__balloon:before {
   bottom: -45px;
   left: 30px;
   border: 20px solid transparent;
@@ -21,8 +25,6 @@
 }
 
 .q9__balloon:after {
-  content: "";
-  position: absolute;
   bottom: -38px;
   left: 30px;
   border: 20px solid transparent;
