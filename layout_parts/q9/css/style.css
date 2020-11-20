@@ -15,19 +15,17 @@
 .q9__balloon:before,.q9__balloon:after{
   content: "";
   position: absolute;
+  left: 30px;
+  border: 20px solid transparent;
 }
 
 .q9__balloon:before {
   bottom: -45px;
-  left: 30px;
-  border: 20px solid transparent;
   border-top-color: #222;
 }
 
 .q9__balloon:after {
   bottom: -38px;
-  left: 30px;
-  border: 20px solid transparent;
   border-top-color: #fff;
 }
 
